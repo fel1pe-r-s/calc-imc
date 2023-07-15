@@ -11,7 +11,7 @@ Aqui neste **[link](https://www.figma.com/file/atKbLPvU3Ell5kKPtzEXPc/IMC/duplic
 ## Deploy
 
 Para Acessa o projeto<br>
-[![codesandbox](https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=codesandbox&logoColor=white)](https://calc-imc.netlify.app/)
+[![netlify](https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=netlify&logoColor=white)](https://calculando-seu-imc.netlify.app)
 
 ## Demonstração
 
