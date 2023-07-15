@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo de IMC</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer type="module"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="alert-error">Digite somente números</div>
+    <div class="container">
+      <main class="card">
+        <h1 class="title">Cálculo de IMC</h1>
+        <form>
+          <div class="input-wrapper">
+            <label for="weight">Peso (kg)</label>
+            <input placeholder="60" type="number" id="weight" />
+          </div>
+          <div class="input-wrapper">
+            <label for="height">Altura (cm)</label>
+            <input placeholder="165" type="number" id="height" />
+          </div>
+          <button type="submit" class="envia">
+            Calcular IMC
+            <img src="./img/arrow.svg" alt="Calcular IMC" />
+          </button>
+        </form>
+      </main>
+
+      <div class="modal-wrapper">
+        <div class="modal card">
+          <button class="closer">
+            <img src="./img/closer.svg" alt="Fechar popuver" />
+          </button>
+          <h2 class="title"><span>Seu IMC é de </span></h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="perfil">
+      <a
+        href="https://github.com/fel1pe-r-s/calc-imc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <lottie-player
+          src="https://lottie.host/cf75debb-e761-4d7c-823a-e78e3bfb99bc/OLFkgpuWce.json"
+          background="transparent"
+          speed="1"
+          style="width: 100px; height: 100px;"
+          loop
+          autoplay
+        ></lottie-player
+      ></a>
+      <strong>@fel1pe-r-s</strong>
+    </div>
+  </body>
+</html>
